@@ -1,6 +1,6 @@
 <template>
   <div class="h-full flex items-center justify-center">
-    <name-picker :names="['John', 'Howard', 'Frank', 'Arnold']" />
+    <name-picker :names="['Bill', 'Bob', 'Alice']" />
   </div>
 </template>
 
