@@ -14,7 +14,12 @@
 import _ from 'lodash'
 
 export default {
-  props: ['names'],
+  props: {
+    names: {
+      type: Array,
+      required: true
+    }
+  },
 
   computed: {
     name: function () {
